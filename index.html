@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sketchy Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Patrick+Hand&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="paper-texture"></div>
+
+    <header class="sketch-box">
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#tech-stack">Tech Stack</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="sketch-section">
+            <div class="hero-content">
+                <!-- Circular Image Holder -->
+                <img src="images/picofme (1).png" alt="Profile Picture" class="profile-pic">
+                <h1>Hello, I'm <span class="highlight">Manasvi</span></h1>
+                <p class="subtitle">I bug and decode stuff :)</p>
+                <div class="doodle-arrow"></div>
+            </div>
+        </section>
+
+        <section id="about" class="sketch-section">
+            <h2>About Me</h2>
+            <div class="content-box">
+                <p>Welcome to my digital sketchbook! "I’m Naga Manasvi. I build secure, high-performance backend
+                    systems, and I have the scars from debugging complex workflows to prove it.
+                    My biggest professional challenge isn't the code—it's convincing the data to behave. As an AI/ML and
+                    Backend Engineer, I specialize in negotiating complex business datasets into actionable insights and
+                    forcing high-performance systems and they rarely crash—rarely being the key word, as I'm an
+                    engineer, not a magician!
+                    My greatest skill is my adaptability, honed from hours of debugging complex workflows. If you need
+                    someone who can solve complex problems and keeps their sense of humor intact after a 4 a.m.
+                    deployment, let’s talk.
+                </p>
+            </div>
+        </section>
+
+        <section id="tech-stack" class="sketch-section">
+            <h2>Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <h3>Programming Languages</h3>
+                    <p>Python, Java, C++, JavaScript</p>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <h3>Database Management</h3>
+                    <p>MySQL, MongoDB</p>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <h3>Web & Development Tools</h3>
+                    <p>HTML, CSS, Git, MERN(still learning)</p>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <h3>Machine Learning</h3>
+                    <p>Python, Numpy, Pandas, Matplotlib, TensorFlow, PyTorch, Scikit-learn, Jupyter Notebook, Colab</p>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="sketch-section">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Anomaly detection in network traffic</h3>
+                    <p>Built a full-stack Machine Learning solution leveraging Python and TensorFlow/Keras to analyze
+                        network activities in real-time. This system achieved a 94% detection accuracy in identifying
+                        malicious intrusion attempts, creating a scalable and efficient safeguard for network security.
+                    </p>
+                    <a href="https://github.com/pixelatedAF/anomaly-detection" class="btn-sketch">View Code</a>
+                </div>
+                <div class="project-card">
+                    <h3>Stock Data Analysis and Modelling</h3>
+                    <p>Conducted in-depth Exploratory Data Analysis (EDA) on large business datasets using Python
+                        (Pandas/NumPy) and SQL. The analysis led to the creation of visual dashboards and actionable
+                        recommendations , successfully improving operational efficiency by 18% and enhancing overall
+                        business intelligence.</p>
+                    <a href="https://github.com/pixelatedAF/Stock-data-analysis-and-modelling" class="btn-sketch">View
+                        Code</a>
+                </div>
+                <div class="project-card">
+                    <h3>Heart Disease Detection</h3>
+                    <p>Designed and implemented a predictive Machine Learning model using biomedical data to identify
+                        the early markers of heart disease. This project demonstrates strong analytical skills and the
+                        ability to apply TensorFlow/Keras and data preprocessing techniques to high-stakes healthcare
+                        challenges.</p>
+                    <a href="https://github.com/pixelatedAF/Heart-Diseases" class="btn-sketch">View Code</a>
+                </div>
+                <div class="project-card">
+                    <h3>CloudZeroTrust AI Intelligent Compliance Monitoring </h3>
+                    <p>Developed a proof-of-concept for a modern Zero Trust security architecture focusing on cloud
+                        environments. This project showcases strategic system design knowledge, ensuring that access to
+                        critical backend resources is strictly authenticated and authorized regardless of location,
+                        reinforcing security and high performance.</p>
+                    <a href="https://github.com/pixelatedAF/CloudZeroTrust" class="btn-sketch">View Code</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="sketch-section">
+            <h2>Get in Touch</h2>
+            <form class="contact-form" action="https://formsubmit.co/knmanasvi7@gmail.com" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-sketch">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="sketch-footer">
+        <div class="footer-content">
+            <p>&copy; Lets connect and build something special &hearts;</p>
+            <!-- Image on the right side -->
+            <div class="linkedin-scanner">
+                <img src="images/linkedin QR.jpeg" alt="Scan to connect on LinkedIn">
+                <p>Scan to connect!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
